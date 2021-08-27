@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    background-color:cornsilk;
+    background-color:white;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,20 +22,21 @@ ul {
 }
 
 .logo {
-    width: 110px;
+    margin: 1em;
+    width: 80px;
 }
 
 header{
     display: flex;
+    font-size: 24px; 
+    
+}
+.list-container{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.navigationbar{
-    font-size: 24px;   
-    display: flex;
-    flex-direction: row;
-    
-}
 
 h1{
     font-size: 80px;
@@ -50,7 +51,7 @@ h1{
     text-align: left;
 }
 
-.petfooter{
-    text-align: end;
-
+.footer-container{
+    padding: 3em 0;
+    background-color:wheat;
 }
